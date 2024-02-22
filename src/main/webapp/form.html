@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration Form</title>
+<style>
+    .container{
+        margin: 0;
+        padding: 0;
+    }
+    .container{
+        display: flex;
+align-items: center;
+justify-content: center;
+    }
+</style>
+</head>
+<body>
+ <center>
+   <h1>Student Registration form</h1> <br>
+   </center>
+<div class="container">
+    <fieldset>
+        <legend>ENTER HERE</legend>
+    <form action="save" method="post">
+        <table>
+            <tr>
+                <th>Name: </th>
+                <td><input type="text" name="name"></td>
+            </tr>
+
+            <tr>
+                <th>Mobile: </th>
+                <td><input type="number" name="mobile"></td>
+            </tr>
+
+            <tr>
+                <th>Gender: </th>
+                <td>
+                    <input type="radio" name="Gender" value="male">male
+                    <input type="radio"  name="Gender" value="Female">Female
+                    </td>
+            </tr>
+
+            <tr>
+                <th>Subjects: </th>
+                <td>
+                    <input type="checkbox" name="Subjects" value="java">java
+                    <input type="checkbox" name="Subjects" value="web">web
+                    <input type="checkbox" name="Subjects" value="spring">spring
+                    <input type="checkbox" name="Subjects" value="React">React
+                </td>
+            </tr>
+
+            <tr>
+                <th>Country: </th>
+                <td>
+                    <select name="country" id="">
+                    <option>India</option>
+                    <option>Nepal</option>
+                    <option>USA</option>
+                    <option>china</option>
+                    </select>
+                    </td>
+            </tr>
+            <tr>
+                <th>Color: </th>
+                <td><input type="color" name="color"></td>
+            </tr>
+
+            <tr>
+                <th>DOB: </th>
+                <td>
+                    <input type="date" name="dob"></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button>Submit</button>
+                </td>
+            </tr>
+
+        </table>
+    </form>
+</fieldset>
+
+
+</div>
+</body>
+</html>
